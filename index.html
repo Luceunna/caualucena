@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Github</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">FOLIO</div>
+            <ul class="navItems">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#rodape">Contato</a></li>
+            </ul>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/cau%C3%A3-lucena-8383b9209/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.behance.net/caulucena"><i class="fab fa-behance"></i></a>
+                <a href="https://www.instagram.com/lucenacreation/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/caua.lucena.102"><i class="fab fa-facebook"></i></a>
+                <a href="https://github.com/Luceunna"><i class="fab fa-github"></i></a>
+            </div>
+        </nav>
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Olá</span>
+                <h1>Eu sou <span class="multiText"></span></h1>
+                <p></p>
+                <div class="btns">
+                    <a href="https://api.whatsapp.com/send?phone=559992241942&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento"><input class="button" type="button" value="Me contrate"></a>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="Cauã banner.png" alt="Cauã Banner">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typingEffect = new Typed(".multiText", {
+            strings: ["Desenvolvedor", "Designer", "Editor de Video"],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1500
+        });
+    </script>
+    <div class="partedois">
+        <section id="sobre"><h2 class="sobre">Sobre mim:</h2></section>
+        <p class="sobremim">Olá, meu nome é Cauã Lucena, sou design gráfico, estou cursando design gráfico e digital pela FAM, trabalho na área a um ano, atuo como freelancer, para criação de logos, catálogos, cardapios, posters e publicidade para stories, também atuo como editor de video, e tenho bastante habilidade com o adobe premiere pro, e o adobe after effects, e sou desenvolvedor front-end, tenho experiência em html e css mas pretendo fazer analise e desenvolvimento de sistemas.</p>
+    </div>
+    <div>
+        <h3 id="projetos" class="pj">Projetos</h3>
+    </div>
+    <div class="circle-container">
+        <div class="circle" onclick="handleClick(1)">
+            <a href="https://github.com/Luceunna">
+            <img src="coding.jpg" alt="Imagem 1">
+        </a>
+            <p>Desenvolvimento Web</p>
+          </div>
+          <div class="circle" onclick="handleClick(2)">
+            <a href="https://www.behance.net/caulucena">
+            <img src="design.jpg" alt="Imagem 2">
+        </a>
+            <p>Design Gráfico</p>
+          </div>
+          <div class="circle" onclick="handleClick(3)">
+            <a href="https://drive.google.com/drive/folders/1u_v_rdKmetYeQAPgleRAntpJQXp5uj84?usp=sharing">
+            <img src="editing.jpg" alt="Imagem 3">
+        </a>
+            <p>Edição de Video</p>
+          </div>
+    </div>
+      <script src="script.js">
+        function handleClick(circleNumber) {
+          alert('Círculo ' + circleNumber + ' clicado!');
+        }
+      </script>
+      <div>
+        <footer id="rodape">
+            <dl>
+                <dt>Email</dt>
+                <dd>Caualucena524@gmail.com</dd>
+                <dt>Whatsapp</dt>
+                <dd>+55 (99) 99224-1942</dd>
+            </dl>
+            <p>FOLIO</p>
+        </footer>
+      </div>
+</body>
+</html>

@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow: auto;
+    overflow-x: hidden;
+}
+.container{
+    background-image: url(/Github/Laranja.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-width: 100vh;
+    background-color: #ffffff;
+}
+.Degrade {
+    z-index: 111;
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    z-index: 111;
+}
+.logo{
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    color: #3d535f;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.navItems{
+    display: flex;
+
+}
+.navItems li{
+    list-style: none;
+    margin: 0 15px;
+}
+.navItems li a{
+    font-size: 25px;
+    color: #3d535f;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navItems li:hover a,
+.links a:hover{
+    color: #D8432E;
+}
+.links a{
+    font-size: 30px;
+    color: #3d535f;
+    margin: 25px 10px;
+}
+.wrapper{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    overflow: hidden;
+}
+.cols{
+    width: 50%;
+}
+.topline{
+    display: block;
+    position: relative;
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: #3d535f;
+}
+.topline::after{
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 45px;
+    bottom: 10px;
+    background-color: #D8432E;
+}
+h1{
+    display: block;
+    font-size: 50px;
+    font-weight: 900;
+    color: #3d535f;
+}
+.multiText{
+    width: 10px;
+    height: auto;
+    color: #D8432E;
+    text-transform: capitalize;
+}
+p{
+    display: block;
+    width: 90%;
+    font-size: 1.2em;
+    color: #3d535f;
+}
+.btns{
+    width: 100%;
+    position: relative;
+    left: 150px;
+}
+.button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffff;
+    background-color: #3d535f;
+    padding: 8px 14px;
+    margin: 40px 5px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 4);
+}
+.button:hover{
+    background-color: #D8432E;
+}
+.imgbox{
+    position: relative;
+    width: 75%;
+    height: 75%;
+    left: 30%;
+}
+.imgbox img {
+    position: relative;
+    height: auto;
+    width: 100%;
+    top: 20px;
+    bottom: 30px;
+    right: 0;
+    left: 100px; /* Adicionei 'px' para especificar a unidade de medida */
+    animation: none;
+}
+.multiText{
+    font-size: 50px;
+}
+h2{
+    display: flex;
+    font-size: 50px;
+    font-weight: 900;
+    color: #3d535f;
+}
+.partedois{
+    width: auto;
+    height: 300px;
+    background: linear-gradient(to right, #FFCE4B, #FF7043);
+    margin: 10px;
+    border-radius: 20px;
+}
+.sobre{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: #D8432E;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 50px;
+    margin-bottom: 10px; /* Adiciona uma margem na parte inferior do título */
+    padding-top: 10px;
+    right: 30px;
+}
+.sobremim{
+    font-size: 150%;
+    margin: 15px;
+    height: auto;
+    width: auto;
+    margin-top: 5px;
+}
+h3{
+    justify-content: center;
+    display: flex;
+}
+.pj{
+    font-size: 85px;
+    padding-top: 50px;
+}
+.circle-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+  }
+.circle {
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .circle img {
+    width: 200px; /* Ajuste conforme necessário */
+    height: 200px; /* Ajuste conforme necessário */
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .circle p {
+    margin: 0;
+  }
+  footer{
+    padding: 20px;
+    background: #D8432E;
+    color: #fff;
+    margin-top: 20px;
+    display: table;
+    width: 100%;
+  }
+  footer dl, footer p{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  footer dt{
+    font-weight: bold;
+  }
+  footer p{
+    text-align: right;
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  @media only screen and (max-width: 768px) {
+    .container {
+        background-size: auto; /* Adapta o tamanho do plano de fundo */
+    }
+}
+
+/* Restante do seu CSS existente */
+
+/* ... */
+
+/* Adaptações específicas para dispositivos móveis */
+
+@media only screen and (max-width: 768px) {
+    body{
+        overflow-x: scroll;
+    }
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .navItems {
+        margin-top: 0px;
+    }
+
+    .navItems li {
+        margin: 0px 0;
+    }
+
+    .links {
+        margin-top: 20px;
+    }
+
+    .wrapper {
+        padding: 0 5%;
+    }
+
+    .cols {
+        width: 100%;
+    }
+
+    .imgbox {
+        width: 100%;
+        left: 0;
+    }
+
+    .btns {
+        width: 100%;
+        left: 0;
+    }
+
+    .button {
+        font-size: 20px;
+        margin: 20px 5px;
+    }
+
+    .partedois {
+        height: auto;
+    }
+
+    .sobre {
+        font-size: 30px;
+        margin: 20px;
+    }
+
+    .sobremim {
+        font-size: 120%;
+        margin: 15px;
+    }
+
+    .pj {
+        font-size: 60px;
+        padding-top: 30px;
+    }
+
+    .circle img {
+        width: 150px;
+        height: 150px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    footer p {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .navItems {
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navItems li {
+        margin: 0px 0;
+    }
+
+    .links {
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .cols {
+        width: 100%;
+    }
+
+    .topline {
+        margin-bottom: 20px; /* Ajuste a margem conforme necessário */
+    }
+
+    h1 {
+        font-size: 40px; /* Ajuste o tamanho da fonte conforme necessário */
+        margin-top: 10px; /* Ajuste a margem conforme necessário */
+    }
+
+    .multiText {
+        font-size: 30px; /* Ajuste o tamanho da fonte conforme necessário */
+    }
+
+    p {
+        font-size: 1em; /* Ajuste o tamanho da fonte conforme necessário */
+        margin-top: 10px; /* Ajuste a margem conforme necessário */
+    }
+
+    .btns {
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+
+    .button {
+        font-size: 20px;
+        margin: 20px 5px;
+    }
+}
