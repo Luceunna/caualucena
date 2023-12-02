@@ -241,64 +241,8 @@ h3{
     text-transform: uppercase;
   }
   @media only screen and (max-width: 768px) {
-    .container {
-        background-size: auto; /* Adapta o tamanho do plano de fundo */
-    }
-}
-
-/* Restante do seu CSS existente */
-
-/* ... */
-
-/* Adaptações específicas para dispositivos móveis */
-
-@media only screen and (max-width: 768px) {
-    body{
+    body {
         overflow-x: scroll;
-    }
-    .nav {
-        flex-direction: column;
-        align-items: center;
-        height: auto;
-    }
-
-    .navItems {
-        margin-top: 0px;
-    }
-
-    .navItems li {
-        margin: 0px 0;
-    }
-
-    .links {
-        margin-top: 20px;
-    }
-
-    .wrapper {
-        padding: 0 5%;
-    }
-
-    .cols {
-        width: 100%;
-    }
-
-    .imgbox {
-        width: 100%;
-        left: 0;
-    }
-
-    .btns {
-        width: 100%;
-        left: 0;
-    }
-
-    .button {
-        font-size: 20px;
-        margin: 20px 5px;
-    }
-
-    .partedois {
-        height: auto;
     }
 
     .sobre {
@@ -307,83 +251,7 @@ h3{
     }
 
     .sobremim {
-        font-size: 120%;
+        font-size: 100%;
         margin: 15px;
-    }
-
-    .pj {
-        font-size: 60px;
-        padding-top: 30px;
-    }
-
-    .circle img {
-        width: 150px;
-        height: 150px;
-    }
-
-    footer {
-        padding: 10px;
-    }
-
-    footer p {
-        font-size: 30px;
-    }
-}
-@media only screen and (max-width: 768px) {
-    .nav {
-        flex-direction: column;
-        align-items: center;
-        height: auto;
-    }
-
-    .navItems {
-        margin-top: 0px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .navItems li {
-        margin: 0px 0;
-    }
-
-    .links {
-        margin-top: 0px;
-        display: flex;
-        justify-content: center;
-    }
-}
-@media only screen and (max-width: 768px) {
-    .cols {
-        width: 100%;
-    }
-
-    .topline {
-        margin-bottom: 20px; /* Ajuste a margem conforme necessário */
-    }
-
-    h1 {
-        font-size: 40px; /* Ajuste o tamanho da fonte conforme necessário */
-        margin-top: 10px; /* Ajuste a margem conforme necessário */
-    }
-
-    .multiText {
-        font-size: 30px; /* Ajuste o tamanho da fonte conforme necessário */
-    }
-
-    p {
-        font-size: 1em; /* Ajuste o tamanho da fonte conforme necessário */
-        margin-top: 10px; /* Ajuste a margem conforme necessário */
-    }
-
-    .btns {
-        width: 100%;
-        left: 0;
-        text-align: center;
-    }
-
-    .button {
-        font-size: 20px;
-        margin: 20px 5px;
     }
 }
