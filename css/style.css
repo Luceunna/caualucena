@@ -372,7 +372,9 @@ footer p {
     }
 
     .circle {
-        width: 50%; /* Ajuste conforme necessário */
+        width: 200px; /* Ajuste conforme necessário */
+        height: 200px;
+        padding: 20px;
         
     }
     
